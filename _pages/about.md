@@ -61,9 +61,14 @@ latest_posts:
   margin-top: -65px;
   z-index: 2;
 }
-
+  
 .profile img {
-  border: 5px solid var(--global-bg-color);
+  border: none !important;
+  border-radius: 50% !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  padding: 0 !important;
+  box-shadow: none !important;
 }
 
 /* Hide artwork in dark mode */
@@ -97,6 +102,16 @@ html[data-theme="dark"] .profile {
     padding-top: 0;
   }
 }
+  
+/* Social media icons */
+.social .contact-icons {
+  font-size: 2.5rem !important;
+}
+
+.social .contact-icons a {
+  margin: 0 6px;
+}
+  
 </style>
 
 I am a neuroscientist interested in how nervous systems evolve to give rise to novel behaviors. My research lies at the intersection of neuroethology, evolutionary biology, and sensory neuroscience.
@@ -105,7 +120,7 @@ I am particularly interested in the different modes of evolution through which n
 
 ## Current research
 
-### Evolution of olfactory circuits during host specialization
+### Evolution of olfactory circuits during host specialization in mosquitoes
 
 How does the nervous system evolve as animals adapt to new ecological niches?
 
