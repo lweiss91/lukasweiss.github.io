@@ -1,4 +1,73 @@
 ---
+<style>
+.post-header {
+  position: relative;
+  isolation: isolate;
+  padding-top: 130px;
+  margin-bottom: 20px;
+}
+
+.post-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 230px;
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.1),
+      var(--global-bg-color)
+    ),
+    url('{{ "/assets/img/Picture1.png" | relative_url }}');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.65;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.profile {
+  position: relative;
+  margin-top: -65px;
+  z-index: 2;
+}
+
+.profile img {
+  border: 5px solid var(--global-bg-color);
+}
+
+/* Hide artwork in dark mode */
+html[data-theme="dark"] .post-header::before {
+  display: none;
+}
+
+html[data-theme="dark"] .post-header {
+  padding-top: 0;
+}
+
+html[data-theme="dark"] .profile {
+  margin-top: 0;
+}
+
+/* Mobile layout */
+@media (max-width: 576px) {
+  .post-header {
+    padding-top: 85px;
+  }
+
+  .post-header::before {
+    height: 160px;
+  }
+
+  .profile {
+    margin-top: 0;
+  }
+}
+</style>
+
 layout: about
 title: about
 permalink: /
@@ -32,10 +101,6 @@ I am a neuroscientist interested in how nervous systems evolve to give rise to n
 I am particularly interested in the different modes of evolution through which neural circuits can change as animals adapt to new ecological niches. My interests span both insects and vertebrates, with a special focus on olfaction.
 
 ## Current research
-
-<img src="{{ '/assets/img/Picture1.png' | relative_url }}"
-     alt="Illustration of mosquito evolution"
-     style="width: 100%; border-radius: 8px; margin: 15px 0;">
 
 ### Evolution of olfactory circuits during host specialization
 
