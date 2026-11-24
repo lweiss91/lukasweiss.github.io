@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: C.V. Starr Postdoctoral Fellow · <a href="https://pni.princeton.edu/">Princeton Neuroscience Institute</a>
+subtitle: C.V. Starr Postdoctoral Fellow · <a href="https://pni.princeton.edu/">Princeton Neuroscience Institute</a> · &  <a href="https://eeb.princeton.edu/">Princeton Ecology & Evolutionary Biology</a>
+
 
 profile:
   align: right
