@@ -7,7 +7,7 @@ subtitle: C.V. Starr Postdoctoral Fellow · <a href="https://pni.princeton.edu/"
 
 profile:
   align: right
-  image: lukas-weiss2.jpg
+  image: lukas-weiss2.jpeg
   image_circular: true
   more_info: >
     <p>Princeton University</p>
