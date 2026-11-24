@@ -33,8 +33,15 @@ I am particularly interested in the different modes of evolution through which n
 
 ## Current research
 
-As a C.V. Starr Postdoctoral Fellow at Princeton University, I investigate how the olfactory system of the mosquito *Aedes aegypti* evolved as it specialized on human hosts.
+<img src="{{ '/assets/img/Picture1.png' | relative_url }}"
+     alt="Illustration of mosquito evolution"
+     style="width: 100%; border-radius: 8px; margin: 15px 0;">
 
-By combining comparative neuroanatomy, functional imaging, genetics, and behavioral experiments, I aim to understand how evolutionary changes in sensory circuits give rise to changes in animal behavior.
+### Evolution of olfactory circuits during host specialization
+
+How does the nervous system evolve as animals adapt to new ecological niches?
+
+In my current research at Princeton University, I investigate how the mosquito *Aedes aegypti* reshaped its olfactory circuits as it evolved to specialize on human hosts. By combining comparative neuroanatomy, functional imaging, neurogenetics, and behavior, I aim to understand how evolutionary changes in sensory circuits give rise to novel behavioral preferences.
+
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
