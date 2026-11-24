@@ -2,15 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: 'C.V. Starr Postdoctoral Fellow · <a href="https://pni.princeton.edu/">Princeton Neuroscience Institute</a> & <a href="https://eeb.princeton.edu/">Princeton Ecology & Evolutionary Biology</a>'
+subtitle: 'C.V. Starr Postdoctoral Fellow<br><a href="https://pni.princeton.edu/">Princeton Neuroscience Institute</a><br>& <a href="https://eeb.princeton.edu/">Princeton Ecology & Evolutionary Biology</a>'
 
 profile:
   align: right
   image: lukas-weiss2.jpeg
   image_circular: true
-  more_info: >
-    <p>Princeton University</p>
-    <p>Princeton, NJ, USA</p>
 
 selected_papers: false
 social: true
@@ -41,17 +38,11 @@ latest_posts:
   left: 0;
   right: 0;
   height: 230px;
-  background-image:
-    linear-gradient(
-      to bottom,
-      rgba(255,255,255,0.1),
-      var(--global-bg-color)
-    ),
-    url('{{ "/assets/img/Picture1.png" | relative_url }}');
-  background-size: cover;
-  background-position: center;
+  background-image: url('{{ "/assets/img/Picture1.png" | relative_url }}');
+  background-size: contain;
+  background-position: top center;
   background-repeat: no-repeat;
-  opacity: 0.65;
+  opacity: 0.35;
   z-index: -1;
   pointer-events: none;
 }
@@ -118,9 +109,7 @@ I am a neuroscientist interested in how nervous systems evolve to give rise to n
 
 I am particularly interested in the different modes of evolution through which neural circuits can change as animals adapt to new ecological niches. My interests span both insects and vertebrates, with a special focus on olfaction.
 
-## Current research
-
-### Evolution of olfactory circuits during host specialization in mosquitoes
+## Current research: Evolution of olfactory circuits during host specialization in mosquitoes
 
 How does the nervous system evolve as animals adapt to new ecological niches?
 
